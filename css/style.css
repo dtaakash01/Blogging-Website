@@ -17,7 +17,9 @@ header {
     position: relative;
 }
 
-
+a{
+    text-decoration: none;
+}
 /* utilities */
 
 .logo-text {
@@ -88,9 +90,28 @@ ul {
 }
 
 .text-box h1 {
-    font-size: 64px;
+    font-size: 54px;
 }
 
 .text-box p {
     font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn-text {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 19px;
+    padding: 14px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn-text:hover {
+    border: 1px solid rgb(173, 163, 19);
+    background-color: rgb(173, 163, 19);
+    transition: 1s;
 }
